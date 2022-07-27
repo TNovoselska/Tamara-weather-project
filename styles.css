@@ -1,0 +1,65 @@
+.card {
+  border-color: #a3d6e9;
+}
+.city-search {
+  width: 300px;
+  height: 50px;
+  position: relative;
+  right: -360px;
+  top: 100px;
+}
+.btn {
+  position: relative;
+  right: -680px;
+  top: 50px;
+  height: 50px;
+  width: 100px;
+}
+.current-info {
+  position: relative;
+  right: -350px;
+  top: 50px;
+  font-weight: 600;
+}
+.current-Date {
+  font-size: 40px;
+  position: relative;
+  right: -200px;
+  top: -60px;
+}
+.current-temp {
+  font-size: 100px;
+  position: relative;
+  right: -200px;
+  top: -40px;
+}
+.current-city {
+  font-size: 100px;
+  position: relative;
+  right: -10 px;
+  top: -20px;
+}
+.measurement {
+  font-size: 30px;
+  color: white;
+}
+.sun {
+  color: white;
+  font-size: 90px;
+  position: relative;
+  right: -25px;
+}
+.card2 {
+  background-color: #a53a0b;
+  border-radius: 7px;
+  border-color: #a53a0b;
+}
+.day {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 2.7rem;
+}
+.day-text {
+  position: relative;
+  left: 50px;
+}
