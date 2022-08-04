@@ -28,8 +28,14 @@ date.innerHTML = formatDate(now);
 function showWeather(response) {
   let currentTemp = Math.round(response.data.main.temp);
   let tempElement = document.querySelector("#now-temp");
-  tempElement.innerHTML = `${currentTemp}°`
+  tempElement.innerHTML = `${currentTemp}°`;
   document.querySelector("#current-city").innerHTML = response.data.name;
+  let iconElement=document.querySelector("#icon");
+  iconElement.setAttribute(
+    "src", `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`
+  )
+  let descriptionElement=document.querySelector("#description");
+  descriptionElement.innerHTML = response.data.weather[0].description;
 }
 
 function search(city) {
